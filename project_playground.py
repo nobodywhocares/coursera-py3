@@ -77,5 +77,5 @@ def search(image_zip_name, search_text, debug = False):
                 print(traceback.format_exc(ex))
 
 
-# search('readonly/small_img.zip', 'Christopher', False)
-search('readonly/images.zip', 'Mark', False)
+search('readonly/small_img.zip', 'Christopher', True)
+search('readonly/images.zip', 'Mark', True)
